@@ -1,0 +1,82 @@
+#projects {
+    width: 1366px;
+    height: 917px;
+    padding: 72px 163px 144px; /*163px*/
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+#projects header {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 1040px;
+}
+
+#project-card {
+    width: 1040px;
+    height: 584px;
+    display: grid;
+    grid-template-areas:
+        "travelgram tech-news pagina-de-receitas"
+        "zingen refund pagina-de-turismo";
+    gap: 24px;
+}
+
+#project-card figure:nth-child(1) {
+    grid-area: travelgram;
+}
+#project-card figure:nth-child(2) {
+    grid-area: tech-news;
+}
+#project-card figure:nth-child(3) {
+    grid-area: pagina-de-receitas;
+}
+#project-card figure:nth-child(4) {
+    grid-area: zingen;
+}
+#project-card figure:nth-child(5) {
+    grid-area: refund;
+}
+#project-card figure:nth-child(6) {
+    grid-area: pagina-de-turismo;
+}
+
+.project-card {
+    background-color: var(--gray-300);
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 330px;
+    height: 280px;
+    padding: 12px;
+    gap: 20px;
+    border-radius: 12px;
+
+    img {
+        width: 306px;
+        height: 156px;
+        border-radius: 8px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+
+    figcaption {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding: 4px;
+    }
+
+    h3 {
+        font: var(--title-sm);
+        color: var(--gray-600);
+    }
+
+    p {
+        font: var(--text-sm);
+        color: var(--gray-500);
+    }
+}
