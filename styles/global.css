@@ -32,13 +32,12 @@
 }
 
 body {
+    width: 1366px;
     color: var(--gray-500);
     background-color: var(--gray-200);
-}
-
-#container {
     max-width: 1366px;
-    margin: auto;
+    margin-inline: auto;
+    border: solid 1px red;
 }
 
 .project-card:hover {
