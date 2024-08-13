@@ -22,6 +22,10 @@
     font: var(--text-sm);
 }
 
+.purple {
+    color: var(--purple);
+}
+
 .red {
     color: var(--red);
 }

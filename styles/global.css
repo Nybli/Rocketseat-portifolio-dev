@@ -37,9 +37,16 @@ body {
     background-color: var(--gray-200);
     max-width: 1366px;
     margin-inline: auto;
-    border: solid 1px red;
 }
 
 .project-card:hover {
-    outline: solid 1px var(--gray-400);
+    outline: solid 1.5px var(--gray-400);
+}
+
+.social-button:hover {
+    outline: solid 1.5px var(--blue);
+
+    img {
+        filter: brightness(0) saturate(100%) invert(58%) sepia(57%) saturate(1265%) hue-rotate(179deg) brightness(85%) contrast(101%);
+    }
 }
