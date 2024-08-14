@@ -1,5 +1,4 @@
 #services {
-    height: 480px;
     padding: 88px 120px 120px;
     background-color: var(--gray-100);
     display: flex;
@@ -16,8 +15,6 @@
 }
 
 #card {
-    width: 888px;
-    height: 155px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;

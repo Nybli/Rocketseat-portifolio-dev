@@ -4,7 +4,6 @@
     align-items: center;
     background-image: url(/assets/images/Background_Intro.png);
     background-size: cover;
-    width: 1366px;
     height: 750px;
     margin-inline: auto;
 
@@ -15,7 +14,6 @@
 }
 
 #info {
-    width: 1040px;
     margin-top: 120px;
     display: flex;
     flex-direction: column;
@@ -43,35 +41,60 @@ h1 {
     gap: 16px;
 
     .icon {
+        height: 40px;
         display: flex;
         align-items: center;
         gap: 8px;
         padding: 8px 16px;
-        border-radius: 50px;
+        border-radius: 999px;
         background-color: var(--gray-300);
     }
 
     .icon:nth-child(1) {
         width: 114px;
+
+        svg path {
+            fill: var(--gray-500);
+        }
     }
 
     .icon:nth-child(2) {
         width: 105px;
+
+        svg path {
+            fill: var(--red);
+        }
     }
 
     .icon:nth-child(3) {
         width: 92px;
+
+        svg path {
+            fill: var(--blue);
+        }
     }
 
     .icon:nth-child(4) {
         width: 138px;
+
+        svg path {
+            fill: var(--yellow);
+        }
     }
 
     .icon:nth-child(5) {
         width: 106px;
+
+        svg path {
+            fill: var(--blue);
+        }
     }
 
     .icon:nth-child(6) {
         width: 119px;
+
+        svg path {
+            fill: var(--green);
+        }
     }
 }

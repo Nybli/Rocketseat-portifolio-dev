@@ -1,6 +1,4 @@
 #contact {
-    width: 1366px;
-    height: 787px;
     padding: 128px 120px 200px;
     display: flex;
     flex-direction: column;
@@ -9,7 +7,6 @@
     background-size: cover;
 
     header {
-        width: 420px;
         display: flex;
         flex-direction: column;
         text-align: center;

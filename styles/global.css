@@ -46,7 +46,7 @@ body {
 .social-button:hover {
     outline: solid 1.5px var(--blue);
 
-    img {
-        filter: brightness(0) saturate(100%) invert(58%) sepia(57%) saturate(1265%) hue-rotate(179deg) brightness(85%) contrast(101%);
+    svg path {
+        fill: var(--blue);
     }
 }
