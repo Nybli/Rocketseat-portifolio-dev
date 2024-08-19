@@ -18,7 +18,7 @@ Programa exclusivo promovido pela Rocketseat para ensino de tecnologias WEB.
 <br>
 
 <p align="center">
-  <img alt="Projeto Portifólio Dev" src="/assets/Cover.jpg" width="100%">
+  <img alt="Projeto Portifólio Dev" src=".github/preview.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
